@@ -1,7 +1,11 @@
 <div class="container">
 	<ul class="row">
 		<li *ngFor="let pokemon of pokemonList" class="col s12 m4">
-			<div class="card horizontal" pkmnBorderCard="blue">
+			<div
+				(click)="goToPokemon(pokemon)"
+				class="card horizontal"
+				pkmnBorderCard="blue"
+			>
 				<div class="card-image">
 					<img [src]="pokemon.picture" alt="pokémon" />
 				</div>
