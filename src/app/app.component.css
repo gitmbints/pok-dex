@@ -1,0 +1,28 @@
+.top-bar {
+	display: grid;
+	place-items: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background-color: white;
+	border: 2px solid black;
+	border-top: 0;
+	border-inline: 0;
+	height: 100px;
+}
+
+.logo {
+	font-size: 38px;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 720px) {
+	.top-bar {
+		height: 75px;
+	}
+
+	.logo {
+		font-size: 26px;
+	}
+}

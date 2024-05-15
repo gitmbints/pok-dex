@@ -5,7 +5,7 @@ import { AuthService } from "../auth.service";
 @Component({
 	selector: "app-login",
 	templateUrl: "./login.component.html",
-	styles: [],
+	styleUrls: ["./login.component.css"],
 })
 export class LoginComponent implements OnInit {
 	message: string = "Vous êtes déconnecté. (pikachu/pikachu)";
@@ -45,6 +45,6 @@ export class LoginComponent implements OnInit {
 
 	logout() {
 		this.auth.logout();
-		this.message = "Vous êtes déconnecté";
+		this.message = "Vous êtes déconnecté (pikachu/pikachu)";
 	}
 }
