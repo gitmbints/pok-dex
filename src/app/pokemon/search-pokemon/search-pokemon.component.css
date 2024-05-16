@@ -1,0 +1,30 @@
+.form-group {
+	position: relative;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.form-group input {
+	border: 2px solid black;
+	width: 100%;
+	border-radius: 4px;
+	padding: 12px 24px;
+}
+
+.collection {
+	position: absolute;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 4px;
+	top: 80px;
+	left: 0;
+	right: 0;
+}
+
+.collection-item {
+	display: block;
+	padding: 12px 24px;
+	border-bottom: 2px solid black;
+	cursor: pointer;
+}

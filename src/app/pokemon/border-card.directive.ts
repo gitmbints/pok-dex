@@ -4,12 +4,12 @@ import { Directive, ElementRef, HostListener, Input } from "@angular/core";
 	selector: "[pkmnBorderCard]",
 })
 export class BorderCardDirective {
-	private intialColor: string = "#f5f5f5";
+	private intialColor: string = "#000000";
 	private defaultColor: string = "#009688";
-	private defaultHeight: number = 200;
+	// private defaultHeight: number = 200;
 
 	constructor(private el: ElementRef) {
-		this.setHeight(this.defaultHeight);
+		// this.setHeight(this.defaultHeight);
 		this.setBorder(this.intialColor);
 	}
 
@@ -23,11 +23,11 @@ export class BorderCardDirective {
 		this.setBorder(this.intialColor);
 	}
 
-	setHeight(height: number) {
+	/* setHeight(height: number) {
 		this.el.nativeElement.style.height = `${height}px`;
-	}
+	} */
 
 	setBorder(color: string) {
-		this.el.nativeElement.style.border = `solid 4px ${color}`;
+		this.el.nativeElement.style.border = `2px solid ${color}`;
 	}
 }

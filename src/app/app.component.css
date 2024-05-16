@@ -10,6 +10,7 @@
 	border-top: 0;
 	border-inline: 0;
 	height: 100px;
+	z-index: 10;
 }
 
 .logo {

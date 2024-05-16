@@ -7,3 +7,74 @@
 	font-size: 16px;
 	line-height: 1.4;
 }
+
+li {
+	list-style: none;
+}
+
+.chip {
+	display: inline-block;
+	padding: 4px 12px;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 16px;
+}
+
+.chip + * {
+	margin-left: 10px;
+}
+
+.chip.red {
+	background-color: white;
+	border: 2px solid red;
+	color: red;
+}
+
+.chip.blue {
+	background-color: white;
+	border: 2px solid blue;
+	color: blue;
+}
+
+.chip.green {
+	background-color: white;
+	border: 2px solid green;
+	color: green;
+}
+
+.chip.brown {
+	background-color: white;
+	border: 2px solid brown;
+	color: brown;
+}
+
+.chip.grey {
+	background-color: white;
+	border: 2px solid grey;
+	color: grey;
+}
+
+.chip.deep-purple {
+	background-color: white;
+	border: 2px solid purple;
+	color: purple;
+}
+
+.chip.lime {
+	background-color: white;
+	border: 2px solid lime;
+	color: lime;
+}
+
+.chip.pink {
+	background-color: white;
+	border: 2px solid pink;
+	color: pink;
+}
+
+.chip.deep-orange {
+	background-color: white;
+	border: 2px solid orange;
+	color: orange;
+}

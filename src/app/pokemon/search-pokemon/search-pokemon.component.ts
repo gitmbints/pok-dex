@@ -13,7 +13,7 @@ import { PokemonService } from "../pokemon.service";
 @Component({
 	selector: "app-search-pokemon",
 	templateUrl: "./search-pokemon.component.html",
-	styles: [],
+	styleUrls: ["./search-pokemon.component.css"],
 })
 export class SearchPokemonComponent implements OnInit {
 	// Data flow of the user search
