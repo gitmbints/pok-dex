@@ -2,7 +2,7 @@
 
 ![Pokémon Form App](./src/assets/images/pokedex.png)
 
-Bienvenue dans l'application Pokémon Form! Cette application permet de gérer les informations des Pokémon via un formulaire interactif.
+Bienvenue dans l'application Pokédex! Cette application permet de gérer les informations des Pokémon via un formulaire interactif.
 
 ## Démo en direct
 
@@ -38,7 +38,7 @@ Découvrez la démo en direct de l'application [ici.](https://ng-pokemon-app-ca2
    ```
 4. Démarrez l'application :
    ```bash
-   ng serve
+   npm start
    ```
 5. Ouvrez votre navigateur et accédez à `http://localhost:4200`.
 
