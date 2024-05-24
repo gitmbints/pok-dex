@@ -4,6 +4,10 @@
 
 Bienvenue dans l'application Pokémon Form! Cette application permet de gérer les informations des Pokémon via un formulaire interactif.
 
+## Démo en direct
+
+Découvrez la démo en direct de l'application [ici.](https://ng-pokemon-app-ca2d5.web.app)
+
 ## Fonctionnalités
 
 - **Ajouter un Pokémon** : Remplissez les informations nécessaires pour ajouter un nouveau Pokémon.
