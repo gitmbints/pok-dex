@@ -1,58 +1,44 @@
-<!-- Chapitre 6 : Les Routes -->
-<div *ngIf="pokemon" class="row">
-	<div class="col s12 m8 offset-m2">
-		<h2 class="header center">{{ pokemon.name }}</h2>
-		<div class="card horizontal hoverable">
-			<div class="card-image">
-				<img [src]="pokemon.picture" />
+<div *ngIf="pokemon" class="container">
+	<div class="card">
+		<h1 class="header center">{{ pokemon.name }}</h1>
+
+		<div class="card-image">
+			<img [src]="pokemon.picture" />
+		</div>
+
+		<div class="card-stacked">
+			<div class="card-content">
+				<span>Nom</span>
+				<strong>{{ pokemon.name }}</strong>
 			</div>
-			<div class="card-stacked">
-				<div class="card-content">
-					<table class="bordered striped">
-						<tbody>
-							<tr>
-								<td>Nom</td>
-								<td>
-									<strong>{{ pokemon.name }}</strong>
-								</td>
-							</tr>
-							<tr>
-								<td>Points de vie</td>
-								<td>
-									<strong>{{ pokemon.hp }}</strong>
-								</td>
-							</tr>
-							<tr>
-								<td>Dégâts</td>
-								<td>
-									<strong>{{ pokemon.cp }}</strong>
-								</td>
-							</tr>
-							<tr>
-								<td>Types</td>
-								<td>
-									<span
-										*ngFor="let type of pokemon.types"
-										class="{{ type | pokemonTypeColor }}"
-										>{{ type }}</span
-									>
-								</td>
-							</tr>
-							<tr>
-								<td>Date de création</td>
-								<td>
-									<em>{{ pokemon.created | date : "dd/MM/yyyy" }}</em>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<div class="card-action">
-					<a (click)="goToPokemonList()">Retour</a>
-					<a (click)="goToEditPokemon(pokemon)">Editer</a>
-					<a (click)="deletePokemon(pokemon)">Supprimer</a>
+			<div class="card-content">
+				<span>Points de vie</span>
+				<strong>{{ pokemon.hp }}</strong>
+			</div>
+			<div class="card-content">
+				<span>Dégâts</span>
+				<strong>{{ pokemon.cp }}</strong>
+			</div>
+			<div class="card-content">
+				<span>Types</span>
+				<div>
+					<span
+						*ngFor="let type of pokemon.types"
+						class="{{ type | pokemonTypeColor }}"
+						>{{ type }}</span
+					>
 				</div>
 			</div>
+			<div class="card-content">
+				<span>Date de création</span>
+				<em>{{ pokemon.created | date : "dd/MM/yyyy" }}</em>
+			</div>
+		</div>
+
+		<div class="card-action">
+			<button class="btn" (click)="goToPokemonList()">Retour</button>
+			<button class="btn" (click)="goToEditPokemon(pokemon)">Editer</button>
+			<button class="btn" (click)="deletePokemon(pokemon)">Supprimer</button>
 		</div>
 	</div>
 </div>

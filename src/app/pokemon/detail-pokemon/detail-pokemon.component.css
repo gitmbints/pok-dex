@@ -1,0 +1,55 @@
+.container {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	padding: 0 10px;
+}
+
+.card {
+	max-width: 720px;
+	width: 100%;
+	padding: 40px;
+	border-radius: 4px;
+	border: 2px solid black;
+}
+
+.card h1 {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.card-image {
+	text-align: center;
+}
+
+.card-stacked {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.card-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card-action {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	align-items: center;
+	margin-top: 40px;
+}
+
+@media screen and (max-width: 480px) {
+	.card {
+		padding: 10px;
+	}
+
+	.card-action {
+		gap: 8px;
+	}
+}

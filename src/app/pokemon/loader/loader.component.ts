@@ -2,21 +2,38 @@ import { Component } from "@angular/core";
 
 @Component({
 	selector: "app-loader",
-	template: `
-		<div class="preloader-wrapper big active">
-			<div class="spinner-layer spinner-blue">
-				<div class="circle-clipper left">
-					<div class="circle"></div>
-				</div>
-				<div class="gap-patch">
-					<div class="circle"></div>
-				</div>
-				<div class="circle-clipper right">
-					<div class="circle"></div>
-				</div>
-			</div>
-		</div>
-	`,
-	styles: [],
+	template: ` <div class="spinner"></div> `,
+	styles: [
+		`
+			.spinner {
+				width: 56px;
+				height: 56px;
+				display: grid;
+				animation: spinner-plncf9 4s infinite;
+			}
+
+			.spinner::before,
+			.spinner::after {
+				content: "";
+				grid-area: 1/1;
+				border: 9px solid;
+				border-radius: 50%;
+				border-color: #474bff #474bff #0000 #0000;
+				mix-blend-mode: darken;
+				animation: spinner-plncf9 1s infinite linear;
+			}
+
+			.spinner::after {
+				border-color: #0000 #0000 #dbdcef #dbdcef;
+				animation-direction: reverse;
+			}
+
+			@keyframes spinner-plncf9 {
+				100% {
+					transform: rotate(1turn);
+				}
+			}
+		`,
+	],
 })
 export class LoaderComponent {}

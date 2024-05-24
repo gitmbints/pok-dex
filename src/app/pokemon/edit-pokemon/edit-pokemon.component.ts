@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, ViewEncapsulation } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 import { Pokemon } from "../pokemon";
 import { PokemonService } from "../pokemon.service";
@@ -6,13 +6,16 @@ import { PokemonService } from "../pokemon.service";
 @Component({
 	selector: "app-edit-pokemon",
 	template: `
-		<h2 class="center">Editer {{ pokemon?.name }}</h2>
-		<p *ngIf="pokemon" class="center">
-			<img [src]="pokemon.picture" alt="pokemon" />
-		</p>
-		<app-pokemon-form *ngIf="pokemon" [pokemon]="pokemon"></app-pokemon-form>
+		<div class="edit-pokemon-form">
+			<h1>Editer {{ pokemon?.name }}</h1>
+			<p *ngIf="pokemon" class="img-container">
+				<img [src]="pokemon.picture" alt="pokemon" />
+			</p>
+			<app-pokemon-form *ngIf="pokemon" [pokemon]="pokemon"></app-pokemon-form>
+		</div>
 	`,
-	styles: [],
+	styleUrls: ["./edit-pokemon.component.css"],
+	encapsulation: ViewEncapsulation.None,
 })
 export class EditPokemonComponent implements OnInit {
 	pokemon: Pokemon | undefined;

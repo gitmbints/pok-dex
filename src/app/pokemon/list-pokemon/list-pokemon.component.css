@@ -28,6 +28,10 @@
 	font-size: 20px;
 }
 
+.pok-card-types {
+	margin-top: 16px;
+}
+
 .btn-floating {
 	position: fixed;
 	bottom: 25px;

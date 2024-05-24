@@ -17,11 +17,13 @@
 						<p>
 							<small>{{ pokemon.created | date }}</small>
 						</p>
-						<span
-							*ngFor="let type of pokemon.types"
-							class="{{ type | pokemonTypeColor }}"
-							>{{ type }}</span
-						>
+						<div class="pok-card-types">
+							<span
+								*ngFor="let type of pokemon.types"
+								class="{{ type | pokemonTypeColor }}"
+								>{{ type }}</span
+							>
+						</div>
 					</div>
 				</div>
 			</li>

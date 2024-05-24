@@ -7,5 +7,41 @@
 }
 
 form {
-	margin: 150px 20px;
+	margin: 150px auto 40px;
+	max-width: 720px;
+	padding: 40px;
+	border: 2px solid black;
+	border-radius: 4px;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.form-group + * {
+	margin-top: 16px;
+}
+
+.form-group label {
+	font-weight: 500;
+}
+
+.form-group input {
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 4px;
+	padding: 12px 24px;
+}
+
+.form-action {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.type-checkbox {
+	display: flex;
+	gap: 8px;
+	align-items: center;
 }
