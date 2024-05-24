@@ -1,31 +1,57 @@
-# NgPokemonApp
+# Pokédex
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
+![Pokémon Form App](./src/assets/images/pokedex.png)
 
-## Development server
+Bienvenue dans l'application Pokémon Form! Cette application permet de gérer les informations des Pokémon via un formulaire interactif.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Fonctionnalités
 
-## Production server
+- **Ajouter un Pokémon** : Remplissez les informations nécessaires pour ajouter un nouveau Pokémon.
+- **Modifier un Pokémon** : Mettez à jour les informations existantes d'un Pokémon.
+- **Validation en temps réel** : Les champs du formulaire sont validés en temps réel pour garantir des entrées correctes.
+- **Types de Pokémon** : Sélectionnez les types de Pokémon avec des cases à cocher dynamiques.
 
-Navigate to `https://ng-pokemon-app-ca2d5.web.app`. That will redirect you to the production app.
+## Technologies Utilisées
 
-## Code scaffolding
+- **Angular** : Framework principal pour le développement de l'application.
+- **TypeScript** : Langage de programmation utilisé pour écrire le code Angular.
+- **HTML & CSS** : Pour la structure et le style de l'application.
+- **Firebase** : Pour la gestion des données et le hosting.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/votre-utilisateur/pokemon-form-app.git
+   ```
+2. Accédez au répertoire du projet :
+   ```bash
+   cd pokemon-form-app
+   ```
+3. Installez les dépendances :
+   ```bash
+   npm install
+   ```
+4. Démarrez l'application :
+   ```bash
+   ng serve
+   ```
+5. Ouvrez votre navigateur et accédez à `http://localhost:4200`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Utilisation
 
-## Running unit tests
+1. Remplissez le formulaire avec les informations du Pokémon.
+2. Cliquez sur le bouton "Valider" pour soumettre le formulaire.
+3. Les messages d'erreur s'afficheront en cas de validation incorrecte.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Contribuer
 
-## Running end-to-end tests
+Les contributions sont les bienvenues! Veuillez suivre les étapes ci-dessous pour contribuer :
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Forkez le projet.
+2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/ma-fonctionnalité`).
+3. Commitez vos modifications (`git commit -m 'Ajout de ma fonctionnalité'`).
+4. Poussez votre branche (`git push origin feature/ma-fonctionnalité`).
+5. Ouvrez une Pull Request.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Merci d'avoir regardé ce projet!
