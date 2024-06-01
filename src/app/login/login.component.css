@@ -6,9 +6,9 @@
 }
 
 .card {
-	max-width: 980px;
+	max-width: 720px;
 	width: 100%;
-	padding: 100px;
+	padding: 60px;
 	border-radius: 4px;
 	border: 2px solid black;
 }

@@ -9,12 +9,12 @@
 	border: 2px solid black;
 	border-top: 0;
 	border-inline: 0;
-	height: 100px;
+	height: 60px;
 	z-index: 10;
 }
 
 .logo {
-	font-size: 38px;
+	font-size: 26px;
 	font-weight: bold;
 	cursor: pointer;
 }
@@ -25,6 +25,6 @@
 	}
 
 	.logo {
-		font-size: 26px;
+		font-size: 18px;
 	}
 }
