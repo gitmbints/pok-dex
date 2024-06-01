@@ -89,6 +89,11 @@ li {
 	cursor: pointer;
 }
 
+.btn.btn-sm {
+  font-size: 12px;
+  padding: 10px 20px;
+}
+
 .btn:hover {
 	background-color: white;
 	color: black;
@@ -98,4 +103,9 @@ li {
 	.btn {
 		font-size: 14px;
 	}
+
+  .btn.btn-sm {
+    font-size: 10px;
+    padding: 8px 16px;
+  }
 }
