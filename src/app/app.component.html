@@ -1,5 +1,8 @@
 <nav class="top-bar">
 	<a (click)="goToPokemonList()" class="logo">Pokédex</a>
+  <a class="btn" (click)="logout()" *ngIf="auth.isLoggedIn">
+    Se déconnecter
+  </a>
 </nav>
 
 <router-outlet></router-outlet>

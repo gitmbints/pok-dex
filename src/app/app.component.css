@@ -1,6 +1,7 @@
 .top-bar {
-	display: grid;
-	place-items: center;
+	display: flex;
+  justify-content: space-between;
+	align-items: center;
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -10,6 +11,7 @@
 	border-top: 0;
 	border-inline: 0;
 	height: 60px;
+  padding: 0 20px;
 	z-index: 10;
 }
 
