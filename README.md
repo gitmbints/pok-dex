@@ -2,60 +2,60 @@
 
 ![Pokémon Form App](./src/assets/images/pokedex.png)
 
-Bienvenue dans l'application Pokédex! Cette application permet de gérer les informations des Pokémon via un formulaire interactif.
+Welcome to the Pokédex application! This app allows you to manage Pokémon information through an interactive form.
 
-## Démo en direct
+## Live Demo
 
-Découvrez la démo en direct de l'application [ici.](https://ng-pokemon-app-ca2d5.web.app)
+Check out the live demo of the app [here.](https://ng-pokemon-app-ca2d5.web.app)
 
-## Fonctionnalités
+## Features
 
-- **Ajouter un Pokémon** : Remplissez les informations nécessaires pour ajouter un nouveau Pokémon.
-- **Modifier un Pokémon** : Mettez à jour les informations existantes d'un Pokémon.
-- **Validation en temps réel** : Les champs du formulaire sont validés en temps réel pour garantir des entrées correctes.
-- **Types de Pokémon** : Sélectionnez les types de Pokémon avec des cases à cocher dynamiques.
+- **Add a Pokémon**: Fill in the necessary information to add a new Pokémon.
+- **Edit a Pokémon**: Update an existing Pokémon’s information.
+- **Real-time Validation**: Form fields are validated in real-time to ensure correct entries.
+- **Pokémon Types**: Select Pokémon types with dynamic checkboxes.
 
-## Technologies Utilisées
+## Technologies Used
 
-- **Angular** : Framework principal pour le développement de l'application.
-- **TypeScript** : Langage de programmation utilisé pour écrire le code Angular.
-- **HTML & CSS** : Pour la structure et le style de l'application.
-- **Firebase** : Pour la gestion des données et le hosting.
+- **Angular**: Main framework for app development.
+- **TypeScript**: Programming language used to write Angular code.
+- **HTML & CSS**: For the structure and styling of the app.
+- **Firebase**: For data management and hosting.
 
 ## Installation
 
-1. Clonez le dépôt :
+1. Clone the repository:
    ```bash
-   git clone https://github.com/votre-utilisateur/pokemon-form-app.git
+   git clone https://github.com/your-username/pokemon-form-app.git
    ```
-2. Accédez au répertoire du projet :
+2. Navigate to the project directory:
    ```bash
    cd pokemon-form-app
    ```
-3. Installez les dépendances :
+3. Install the dependencies:
    ```bash
    npm install
    ```
-4. Démarrez l'application :
+4. Start the application:
    ```bash
    npm start
    ```
-5. Ouvrez votre navigateur et accédez à `http://localhost:4200`.
+5. Open your browser and go to `http://localhost:4200`.
 
-## Utilisation
+## Usage
 
-1. Remplissez le formulaire avec les informations du Pokémon.
-2. Cliquez sur le bouton "Valider" pour soumettre le formulaire.
-3. Les messages d'erreur s'afficheront en cas de validation incorrecte.
+1. Fill out the form with the Pokémon’s information.
+2. Click the "Validate" button to submit the form.
+3. Error messages will display if validation fails.
 
-## Contribuer
+## Contributing
 
-Les contributions sont les bienvenues! Veuillez suivre les étapes ci-dessous pour contribuer :
+Contributions are welcome! Please follow the steps below to contribute:
 
-1. Forkez le projet.
-2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/ma-fonctionnalité`).
-3. Commitez vos modifications (`git commit -m 'Ajout de ma fonctionnalité'`).
-4. Poussez votre branche (`git push origin feature/ma-fonctionnalité`).
-5. Ouvrez une Pull Request.
+1. Fork the project.
+2. Create a branch for your feature (`git checkout -b feature/my-feature`).
+3. Commit your changes (`git commit -m 'Add my feature'`).
+4. Push your branch (`git push origin feature/my-feature`).
+5. Open a Pull Request.
 
-## Merci d'avoir regardé ce projet!
+## Thank you for checking out this project!
